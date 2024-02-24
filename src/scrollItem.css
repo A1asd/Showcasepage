@@ -1,0 +1,66 @@
+.scroll-item {
+	height: 400px;
+	width: 150px;
+	display: inline-block;
+	margin: 5px;
+	position: relative;
+	transition: .2s ease-in-out;
+	cursor: pointer;
+	background-position: center;
+	background-size: cover;
+	opacity: .5;
+}
+
+.scroll-item.adjacent{
+	height: 420px;
+	width: 210px;
+	opacity: .8;
+}
+
+.scroll-item.active {
+	height: 500px;
+	width: 290px;
+	opacity: 1;
+}
+
+.scroll-item::before,
+.scroll-item::after {
+	display: block;
+	content: ' ';
+	position: absolute;
+	border-top: 2px solid var(--active-element-marker);
+	animation: ease-in-out .4s forwards shrink;
+}
+
+.active.scroll-item::before,
+.active.scroll-item::after {
+	animation: ease-in-out .3s forwards grow;
+}
+
+@keyframes shrink {
+	from {
+		width: 50%;
+	}
+	to {
+		width: 0%;
+	}
+}
+
+@keyframes grow {
+	from {
+		width: 0%;
+	}
+	to {
+		width: 50%;
+	}
+}
+
+.scroll-item::before {
+	top: -10px;
+	left: 25%;
+}
+
+.scroll-item::after {
+	bottom: -10px;
+	right: 25%;
+}

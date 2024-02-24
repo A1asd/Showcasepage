@@ -1,0 +1,52 @@
+[
+	{
+		"title": "Schrein beim Ghibli Museum",
+		"cover": "pic1.JPG",
+		"description": "dolor sit"
+	},
+	{
+		"title": "Naked Sakura Night Garden",
+		"cover": "./assets/backgrounds/pic6.JPG",
+		"description": "This entire area is just beautiful. My pictures don't do the beauty justice. Many paths to walk. Many gardens, two tea houses, ponds with fish, bridges to walk over, large grass area for picnics, rest and views. Plenty of benches to sit and ponder."
+	},
+	{
+		"title": "Lantern at Laternen Festival",
+		"cover": "./assets/backgrounds/pic2.JPG",
+		"description": "dolor sit"
+	},
+	{
+		"title": "Anime Japan Art Gallery",
+		"cover": "./assets/backgrounds/pic4.JPG",
+		"description": "dolor sit"
+	},
+	{
+		"title": "Anime Japan Riza Atelier",
+		"cover": "./assets/backgrounds/pic5.JPG",
+		"description": "Japanische Conventions sind einfach was anderes. Die Anime Japan bestand nur aus Ausstellungen von neuen Animes, Werbung und einer Menge Erlebnisgelegenheiten, wie kleine Kinos, Kunstaustellungen, Host und Maid Vorstellungen und wunderschönen Ständen der großen Player im Anime Bereich."
+	},
+	{
+		"title": "Sunrise from Mount Fuji",
+		"cover": "./assets/backgrounds/pic7.JPG",
+		"description": "dolor sit"
+	},
+	{
+		"title": "Yokohama before Jojoworld2",
+		"cover": "./assets/backgrounds/pic8.JPG",
+		"description": "dolor sit"
+	},
+	{
+		"title": "Sakura at Naka Itabashi",
+		"cover": "./assets/backgrounds/pic9.JPG",
+		"description": "dolor sit"
+	},
+	{
+		"title": "Naked Sakura Night Garden",
+		"cover": "./assets/backgrounds/pic10.JPG",
+		"description": "dolor sit"
+	},
+	{
+		"title": "Spooky way at a river in Naka Itabashi",
+		"cover": "./assets/backgrounds/pic11.JPG",
+		"description": "dolor sit"
+	}
+]
